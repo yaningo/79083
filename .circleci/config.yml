@@ -14,7 +14,7 @@ workflows:
   two-contexts:
     # Run the welcome/run job in its own container
     jobs:
-      - premier:
+      - premier
           #context:
           #  - toto
           #  - bré
