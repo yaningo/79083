@@ -7,8 +7,8 @@ jobs:
     steps:
       - run:
           command: |
-                   echo toto_var
-                   echo bre_var
+                   echo $toto_var
+                   echo $bre_var
 workflows:
   # Name the workflow "welcome"
   two-contexts:
