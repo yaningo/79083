@@ -15,6 +15,6 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - premier:
-          context:
-            - toto
-            - bré
+          #context:
+          #  - toto
+          #  - bré
